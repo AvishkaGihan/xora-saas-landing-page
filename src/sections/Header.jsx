@@ -21,7 +21,7 @@ const Header = () => {
         <div
           className={clsx(
             "w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0",
-            isOpen ? "max-lg:opacity-100" : "pointer-events-none"
+            isOpen ? "max-lg:opacity-100" : "max-lg:pointer-events-none"
           )}
         >
           <div className=" max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4">
